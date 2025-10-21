@@ -1,0 +1,52 @@
+body{
+    background-color: #24353F;
+    font-family: sans-serif;
+}
+header{
+    box-shadow: 1px 1px 40px 1px black;
+
+}
+header button{
+    border: 1px solid #FFC107 ;
+    color:#B6B6B6;
+    transition: all 0.5s;
+}
+header button:hover{
+    background: #FFC107 !important;
+
+}
+.logInCard{
+    width: 65%;
+    background-color: #24353F;
+    box-shadow: 1px 1px 40px 1px black;
+}
+h1{
+    color: #17A2B8;
+}
+.logInButton .logButton{
+    border: 1px solid #17A2B8;
+    color: #17A2B8;
+    transition: all 0.5s;
+}
+.logInButton .logButton:hover{
+    background-color: #17A2B8 !important;
+    color: white;
+
+}
+
+input::placeholder{
+    color: #B6B6B6;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+input:focus{
+    border: 1px solid #80BDFF !important;
+    outline: none;
+}
+p a{
+    transition: all 0.5s;
+}
+p a:hover{
+    text-decoration: underline !important;
+}
