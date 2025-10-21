@@ -90,7 +90,7 @@ function logIn() {
     if (userFound) {
       p_error.textContent = '';
       localStorage.setItem('currentUser', JSON.stringify(userFound));  
-      window.location.href = './pages/Home.html';
+      window.location.href = './pages/home.html';
     } else {
       p_error.textContent = 'Invalid email or password';
     }
